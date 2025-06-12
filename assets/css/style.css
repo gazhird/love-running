@@ -373,10 +373,6 @@ main {
 }
 
 
-
-
-}
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -418,4 +414,3 @@ main {
 }
 
 
-<script src="https://kit.fontawesome.com/6062614551.js" crossorigin="anonymous"></script>
