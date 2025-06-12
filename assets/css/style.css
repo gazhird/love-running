@@ -193,6 +193,19 @@ flex-wrap: wrap;
     line-height: 0;
 }
 
+
+
+
+/* media query: large or landscape phones (576 and up) */
+@media screen and (min-width: 576) {
+#photos {
+    column-count: 2;
+    column-gap: 0;
+}
+}
+
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -253,6 +266,14 @@ flex-wrap: wrap;
         align-self: flex-end;
     }
 
+
+
+    /* Gallery */
+
+    #photos {
+    column-count: 3;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -260,6 +281,9 @@ flex-wrap: wrap;
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Gallery */
+    
 }
 
 @media screen and (min-width: 1200px) {    
